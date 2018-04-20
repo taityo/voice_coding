@@ -1,0 +1,45 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.home{
+  background-image: url("地球と機械語02");
+  background-size: cover;
+  position: relative;
+  height: 100%;
+}
+
+.home::before{
+  content: "dfkjas;dkfja";
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.home-logo{
+  font-size: 300px;
+  margin-bottom: 100px;
+}
+
+.home-sub{
+  font-size: 80px;
+  margin-bottom: 200px;
+}
+
+.home-signin{
+  font-size: 100px;
+}
+
+.box{
+  padding: 500px;
+  padding-top: 380px;
+  width: 100%;
+  text-align: center;
+}
+
+.box p{
+  color: #fff;
+}
