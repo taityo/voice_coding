@@ -1,1 +1,22 @@
-<h1>Sign Up</h1>
+<div class="signup-title">
+  サインアップ
+</div>
+<div>
+  <div>
+    <%= form_for(@user) do |f| %>
+    <%= f.label :name %>
+    <%= f.text_field :name %><br>
+
+    <%= f.label :email %>
+    <%= f.text_field :email %><br>
+
+    <%= f.label :password %>
+    <%= f.text_field :password %><br>
+
+    <%= f.label :password_confirmation, "Confirmation" %>
+    <%= f.text_field :password_confirmation %><br>
+
+    <%= f.submit "Create my account", class:"button"%><br>
+    <% end %>
+  </div>
+</div>
