@@ -201,7 +201,7 @@ form{
   padding-top: 60px;
 }
 
-input{
+.form input{
   boder: 1px solid #bbb;
   width: 60%;
   height: 20px;
