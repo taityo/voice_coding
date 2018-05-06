@@ -3,10 +3,12 @@
     <div class="container">
       <div class="signup-wrapper">
         <div class="signup-title">
-          Sing Up
+          Sign Up
         </div>
         <div class="signup-form">
-          <%= form_for(@user) do |f| %>
+          <%= form_for(@user, url: signup_path) do |f| %>
+          <%= render "shared/error_message" %>
+
           <%= f.text_field :name, :placeholder=>"Name" %><br>
 
           <%= f.text_field :email, :placeholder=>"Email" %><br>
