@@ -1,3 +1,5 @@
+@import 'bootstrap-sprockets';
+@import 'bootstrap';
 
 li{
   list-style: none;
@@ -253,7 +255,34 @@ input {
   cursor: pointer;
 }
 
+#error_explanation{
+  color: red;
+}
 
+#error_explanation ul{
+  text-align: left;
+  margin-left: 180px;
+  padding: 20px 0;
+}
+
+#error_explanation li{
+  list-style: disc;
+}
+
+.alert{
+  width: 100%;
+  background-color: rgba(255,10,10,0.3);
+  padding: 20px 5px;
+  border-radius: 5px;
+  opacity: 0.8;
+}
+
+/*ユーザー*/
+
+.user{
+  padding: 100px 0px;
+  height: 500px;
+}
 
 /*フッター*/
 
